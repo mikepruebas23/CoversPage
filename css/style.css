@@ -1,0 +1,50 @@
+@font-face { font-family: Black-Han-Sans; src: url('../font/BlackHanSans-Regular.ttf'); } 
+@font-face { font-family: Roboto; src: url('../font/Roboto-Light.ttf'); } 
+body{
+    background-color: #f3f3f3;
+}
+img {
+    width: 100%;
+}
+
+.tarjeta{
+    width: 97%;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 2px;
+    overflow: hidden;
+    font-size: .8125rem;
+    line-height: 1.4;
+    /* background-color: rgba(0,0,0,.08); */
+    /* border: 1px solid rgba(0,0,0,.125); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+h2.text-bhs{
+    font-family: Black-Han-Sans;
+}
+div.bg-primary > h2.text-bhs{
+    color: #1e4167;
+    
+}
+.text-content{
+    color: white;
+    font-size: 18px;
+    font-family: Roboto;
+    text-align: center;
+}
+div.bg-warning > h2.text-bhs{
+    color: #bf8f00;
+}
+img.contacto-social{
+    width: 24%;
+}
+.linkstyle{
+    font-size: 22px;
+    font-family: Black-Han-Sans;
+    color: #bf8f00;
+}
+.text-footer{
+    color: white;
+    text-align: center;
+}
