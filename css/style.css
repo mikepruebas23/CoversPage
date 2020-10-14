@@ -23,9 +23,16 @@ img {
 h2.text-bhs{
     font-family: Black-Han-Sans;
 }
-div.bg-primary > h2.text-bhs{
+div.bg-primary > h2.text-bhs > a{
     color: #1e4167;
     
+}
+
+.bg-purple{
+    background-color: #8457b5;
+}
+div.bg-purple > h2 {
+    color: #4f346d;
 }
 .text-content{
     color: white;
@@ -37,7 +44,7 @@ div.bg-warning > h2.text-bhs{
     color: #bf8f00;
 }
 img.contacto-social{
-    width: 24%;
+    width: 3%;
 }
 .linkstyle{
     font-size: 22px;
@@ -47,4 +54,13 @@ img.contacto-social{
 .text-footer{
     color: white;
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    img.contacto-social{
+        width: 24%;
+    }
+    .mobile-txt-left{
+        text-align: left;
+    }
 }
